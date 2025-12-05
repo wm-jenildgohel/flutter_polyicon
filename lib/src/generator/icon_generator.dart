@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:icon_font_generator/icon_font_generator.dart';
+import '../icon_font_generator/icon_font_generator.dart';
 import 'package:path/path.dart' as path;
 import '../config/config.dart';
 import '../utils/logger.dart';
