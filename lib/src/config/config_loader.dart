@@ -35,6 +35,7 @@ class ConfigLoader {
     try {
       return Config(
         name: _getString(yaml, 'name', required: true)!,
+        className: _getString(yaml, 'class_name'),
         fontFilePath: _getString(
           yaml['output'] as YamlMap?,
           'font_file',

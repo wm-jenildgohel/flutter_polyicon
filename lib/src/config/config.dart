@@ -3,12 +3,14 @@ import 'package:yaml/yaml.dart';
 
 class Config {
   final String name;
+  final String? className;
   final String fontFilePath;
   final String dartFilePath;
   final String svgDir;
 
   Config({
     required this.name,
+    this.className,
     required this.fontFilePath,
     required this.dartFilePath,
     required this.svgDir,
@@ -25,6 +27,7 @@ class Config {
 
     return Config(
       name: yaml['name'] ?? 'MyAppIcons',
+      className: yaml['class_name'],
       fontFilePath: yaml['output']?['font_file'] ?? 'lib/fonts/app_icons.ttf',
       dartFilePath: yaml['output']?['dart_file'] ?? 'lib/icons/app_icons.dart',
       svgDir: yaml['input']?['svg_dir'] ?? 'assets/icons/svg',

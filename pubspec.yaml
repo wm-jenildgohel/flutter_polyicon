@@ -1,7 +1,7 @@
 name: flutter_polyicon
 description: One-shot icon font generator for Flutter. Convert SVG files to production-ready icon fonts with a single command.
-version: 0.1.0
-repository: https://github.com/ilikerobots/polyicon
+version: 0.0.1
+repository: https://github.com/wm-jenildgohel/flutter_polyicon
 homepage: https://fluttericon.com
 
 environment:

@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.1.0] - 2025-12-05
+## [0.0.1] - 2025-12-05
 
 ### Added
 - Initial release of flutter_polyicon
@@ -44,19 +44,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Status:** Fix planned for v0.2.0
 
 ---
-
-## [Unreleased]
-
-### Planned Features
-- Watch mode for automatic regeneration on SVG changes
-- Embedded icon library support (Material, FontAwesome, etc.)
-- Preview mode (HTML preview of all icons)
-- Figma plugin integration
-- VS Code extension
-- Build_runner integration
-- Custom character code mapping
-- Icon tree-shaking support
-
----
-
-[0.1.0]: https://github.com/ilikerobots/polyicon/releases/tag/v0.1.0

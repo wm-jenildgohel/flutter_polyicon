@@ -120,6 +120,15 @@ class IconGenerator {
   }
 
   String _deriveClassName() {
+    if (config.className != null && config.className!.isNotEmpty) {
+      return config.className!;
+    }
+
+    // If the name is already PascalCase (no underscores), return it as is
+    if (!config.name.contains('_')) {
+      return config.name;
+    }
+
     final parts = config.name.split('_');
     return parts
         .map((part) => part.isEmpty
