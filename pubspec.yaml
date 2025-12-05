@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   icon_font_generator:
-    path: ../icon_font_generator_updated
+    path: ./icon_font_generator_updated
   path: ^1.9.1
   xml: ^6.6.1
   yaml: ^3.1.3
