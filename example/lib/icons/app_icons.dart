@@ -15,7 +15,7 @@ import 'package:flutter/widgets.dart';
 /// project's `pubspec.yaml` file in the `fonts` section. This ensures that
 /// the "AppIcons" font is included in your application. This font is used to
 /// display the icons. For example:
-/// 
+///
 /// ```yaml
 /// flutter:
 ///   fonts:

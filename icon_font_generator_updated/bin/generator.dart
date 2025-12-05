@@ -13,7 +13,6 @@ import 'package:yaml/yaml.dart';
 final _argParser = ArgParser(allowTrailingOptions: true);
 final formatter = DartFormatter(
   pageWidth: 80,
-  fixes: StyleFix.all,
 );
 
 void main(List<String> args) {

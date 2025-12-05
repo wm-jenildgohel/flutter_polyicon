@@ -24,9 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Custom Icon Font Example'),
-        ),
+        appBar: AppBar(title: const Text('Custom Icon Font Example')),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -35,7 +33,6 @@ class MyApp extends StatelessWidget {
               // Icon(AppIcons.home, size: 48),
               // Icon(AppIcons.settings, size: 48),
               // Icon(AppIcons.user, size: 48),
-
               const Text(
                 'Add your generated icons here!',
                 style: TextStyle(fontSize: 16),

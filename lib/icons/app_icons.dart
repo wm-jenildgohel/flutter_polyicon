@@ -15,7 +15,7 @@ import 'package:flutter/widgets.dart';
 /// project's `pubspec.yaml` file in the `fonts` section. This ensures that
 /// the "MyAppIcons" font is included in your application. This font is used to
 /// display the icons. For example:
-/// 
+///
 /// ```yaml
 /// flutter:
 ///   fonts:
@@ -30,6 +30,6 @@ class Myappicons {
 
   /// Font icon named "__star__"
   ///
-  /// <image width='32px' src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBvbHlnb24gcG9pbnRzPSIxMiAyIDE1LjA5IDguMjYgMjIgOS4yNyAxNyAxNC4xNCAxOC4xOCAyMS4wMiAxMiAxNy43NyA1LjgyIDIxLjAyIDcgMTQuMTQgMiA5LjI3IDguOTEgOC4yNiAxMiAyIi8+PC9zdmc+'>
+  /// <img width='32px' src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBvbHlnb24gcG9pbnRzPSIxMiAyIDE1LjA5IDguMjYgMjIgOS4yNyAxNyAxNC4xNCAxOC4xOCAyMS4wMiAxMiAxNy43NyA1LjgyIDIxLjAyIDcgMTQuMTQgMiA5LjI3IDguOTEgOC4yNiAxMiAyIi8+PC9zdmc+' alt='star'>
   static const IconData star = IconData(0xe000, fontFamily: iconFontFamily);
 }

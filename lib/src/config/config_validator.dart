@@ -32,13 +32,16 @@ class ConfigValidator {
       );
     }
 
-    if (!await dir.stat().then((stat) => stat.type == FileSystemEntityType.directory)) {
+    if (!await dir
+        .stat()
+        .then((stat) => stat.type == FileSystemEntityType.directory)) {
       throw ValidationException('SVG path is not a directory: $svgDir');
     }
 
     final svgFiles = await dir
         .list()
-        .where((entity) => entity is File && entity.path.toLowerCase().endsWith('.svg'))
+        .where((entity) =>
+            entity is File && entity.path.toLowerCase().endsWith('.svg'))
         .toList();
 
     if (svgFiles.isEmpty) {

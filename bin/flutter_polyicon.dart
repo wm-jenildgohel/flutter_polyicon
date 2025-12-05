@@ -4,8 +4,8 @@ import 'package:flutter_polyicon/src/commands/init_command.dart';
 import 'package:flutter_polyicon/src/commands/generate_command.dart';
 
 void main(List<String> arguments) async {
-  final runner = CommandRunner<void>(
-      'flutter_polyicon', 'A CLI tool for generating Flutter icon fonts from SVGs.')
+  final runner = CommandRunner<void>('flutter_polyicon',
+      'A CLI tool for generating Flutter icon fonts from SVGs.')
     ..addCommand(InitCommand())
     ..addCommand(GenerateCommand());
 

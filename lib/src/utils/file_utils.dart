@@ -17,7 +17,8 @@ class FileUtils {
     }
   }
 
-  static Future<void> writeFileWithBackup(String filePath, String content) async {
+  static Future<void> writeFileWithBackup(
+      String filePath, String content) async {
     await ensureDirectoryExists(filePath);
 
     final file = File(filePath);
@@ -70,7 +71,8 @@ class FileUtils {
       return false;
     }
 
-    final testFile = File(path.join(dirPath, '.write_test_${DateTime.now().millisecondsSinceEpoch}'));
+    final testFile = File(path.join(
+        dirPath, '.write_test_${DateTime.now().millisecondsSinceEpoch}'));
     try {
       await testFile.writeAsString('test');
       await testFile.delete();

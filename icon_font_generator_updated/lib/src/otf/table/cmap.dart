@@ -140,7 +140,9 @@ class CharacterToGlyphTableHeader implements BinaryCodable {
 
   @override
   void encodeToBinary(ByteData byteData) {
-    byteData..setUint16(0, version)..setUint16(2, numTables);
+    byteData
+      ..setUint16(0, version)
+      ..setUint16(2, numTables);
 
     for (var i = 0; i < encodingRecords.length; i++) {
       final r = encodingRecords[i];
@@ -486,7 +488,7 @@ class CharacterToGlyphTable extends FontTable {
     final fullCharCodeList = fullGlyphList
         .map((e) => e.metadata.charCode)
         .toList()
-          ..removeAt(0); // removing .notdef
+      ..removeAt(0); // removing .notdef
     final charCodeList = fullCharCodeList.whereType<int>().toList();
 
     final segmentList = _generateSegments(charCodeList);

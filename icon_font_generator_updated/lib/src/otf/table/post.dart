@@ -157,8 +157,7 @@ class PostScriptVersion20 extends PostScriptData {
 
     final numberOfGlyphs = glyphNameIndex.length;
 
-    final glyphNames =
-        glyphNameList.map(PascalString.fromString).toList();
+    final glyphNames = glyphNameList.map(PascalString.fromString).toList();
 
     return PostScriptVersion20(
       numberOfGlyphs,

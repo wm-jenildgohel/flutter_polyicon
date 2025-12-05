@@ -32,7 +32,8 @@ class IconGenerator {
         );
       }
 
-      logger.success('Found ${svgMap.length} SVG file${svgMap.length == 1 ? '' : 's'}');
+      logger.success(
+          'Found ${svgMap.length} SVG file${svgMap.length == 1 ? '' : 's'}');
 
       logger.step('⚙️  Converting SVGs to font...');
       final result = await _convertToFont(svgMap);

@@ -67,7 +67,8 @@ class SvgLoader {
               node.name.local == 'g'));
 
       if (!hasContent) {
-        logger.warning('SVG "$filename" appears to be empty or has no drawable content');
+        logger.warning(
+            'SVG "$filename" appears to be empty or has no drawable content');
       }
     } catch (e) {
       throw ValidationException('Invalid SVG XML: $e');

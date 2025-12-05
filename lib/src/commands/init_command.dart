@@ -6,7 +6,8 @@ class InitCommand extends Command {
   final String name = 'init';
 
   @override
-  final String description = 'Initialize the flutter_polyicon configuration file.';
+  final String description =
+      'Initialize the flutter_polyicon configuration file.';
 
   InitCommand() {
     argParser.addFlag(

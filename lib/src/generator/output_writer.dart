@@ -25,8 +25,6 @@ class OutputWriter {
     required String dartPath,
     required Duration elapsed,
   }) {
-    final fontFileName = path.basename(fontPath);
-    final dartFileName = path.basename(dartPath);
     final className = _getClassNameFromPath(dartPath);
 
     return '''
