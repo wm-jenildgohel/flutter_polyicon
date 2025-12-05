@@ -1,8 +1,8 @@
 <div align="center"\>
 
-<img src="assets/poly_icons.png" alt="Polyicon Mascot" width="250" />
+<img src="https://github.com/wm-jenildgohel/flutter_polyicon/blob/master/assets/poly_icons.png?raw=true" alt="Polyicon Mascot" width="250" />
  
-# Flutter Polyicon
+# Flutter Polyicon 
 
 ## **The Zero-Config Icon Font Generator for Flutter**
 
