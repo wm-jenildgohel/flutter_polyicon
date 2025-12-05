@@ -1,1 +1,1 @@
-include: package:flutter_lints/flutter.yaml
+# Empty to silence dart format warnings about missing flutter_lints
