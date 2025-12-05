@@ -38,6 +38,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CI/CD integration examples
 - Comparison with alternatives
 
+### Known Issues
+- Dependency conflict with `function_linter ^1.1.0` when installed as local dev_dependency
+- **Workaround:** Install globally using `dart pub global activate flutter_polyicon`
+- **Status:** Fix planned for v0.2.0
+
 ---
 
 ## [Unreleased]

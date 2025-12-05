@@ -518,6 +518,38 @@ For 100+ icons:
 
 ---
 
+### Dependency Conflict with function_linter
+
+**Issue:** If installed as a local dev_dependency alongside `function_linter ^1.1.0`, you may encounter an analyzer version conflict.
+
+**Solution (Recommended):**
+
+Install flutter_polyicon **globally** to avoid conflicts:
+
+```bash
+dart pub global activate flutter_polyicon
+flutter_polyicon generate
+```
+
+Global installation is the recommended approach and isolates dependencies from your project.
+
+**Why This Happens:**
+
+flutter_polyicon depends on `icon_font_generator` which requires `analyzer <7.0.0`, while `function_linter ^1.1.0` requires `analyzer ^7.4.5`.
+
+**Status:**
+
+This will be resolved in version 0.2.0 by updating to newer dependencies. Track progress in [GitHub Issues](https://github.com/ilikerobots/polyicon/issues).
+
+**Alternative Workaround (If you must use local installation):**
+
+1. Temporarily comment out `function_linter` in pubspec.yaml
+2. Run `flutter_polyicon generate`
+3. Restore `function_linter`
+4. Generated files are committed, so you won't need to re-run often
+
+---
+
 ## SVG Requirements
 
 ### Supported SVG Features
