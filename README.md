@@ -8,10 +8,6 @@
 
 ---
 
-⚡️ **One‑shot icon font generator for Flutter** – turn your SVGs into a sleek, type‑safe icon font in seconds.
-
----
-
 ## 🎉 Why Flutter Polyicon?
 - **Zero config** – works out of the box.
 - **Fast** – font‑based icons are lightning‑quick.
