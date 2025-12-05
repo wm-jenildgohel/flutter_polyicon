@@ -24,3 +24,6 @@ dev_dependencies:
 
 executables:
   flutter_polyicon:
+flutter:
+  assets:
+    - assets/poly_icons.png
