@@ -1,0 +1,12 @@
+# Files to exclude from pub.dev package
+
+# Generated files during testing
+/assets/
+/flutter_polyicon.yaml
+
+# Development files
+/explore_api.dart
+
+# Test artifacts
+/.dart_tool/
+/build/
