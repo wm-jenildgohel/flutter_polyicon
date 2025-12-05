@@ -1,0 +1,17 @@
+# Flutter Polyicon Configuration
+# Generated icon font settings
+
+# Name of the icon set and generated class
+name: MyAppIcons
+
+# Output paths for generated files
+output:
+  # Font file location (.ttf or .otf)
+  font_file: lib/fonts/app_icons.ttf
+  # Dart class file location
+  dart_file: lib/icons/app_icons.dart
+
+# Input configuration
+input:
+  # Directory containing SVG files
+  svg_dir: assets/icons/svg
