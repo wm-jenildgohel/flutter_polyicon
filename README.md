@@ -2,6 +2,8 @@
 [![Pub Version](https://img.shields.io/pub/v/flutter_polyicon?color=blue)](https://pub.dev/packages/flutter_polyicon)
 [![License](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/wm-jenildgohel/flutter_polyicon?style=social)](https://github.com/wm-jenildgohel/flutter_polyicon)
+
+---
 ⚡️ **One‑shot icon font generator for Flutter** – turn your SVGs into a sleek, type‑safe icon font in seconds.
 
 ---
