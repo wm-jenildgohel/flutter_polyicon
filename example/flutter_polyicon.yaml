@@ -1,0 +1,7 @@
+name: AppIcons
+class_name: AppIcons
+output:
+  font_file: fonts/app_icons.ttf
+  dart_file: lib/icons/app_icons.dart
+input:
+  svg_dir: assets/icons/svg

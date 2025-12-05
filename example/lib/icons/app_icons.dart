@@ -1,0 +1,40 @@
+// Generated code: do not hand-edit.
+
+// Generated using icon_font_generator.
+// Copyright © 2025 icon_font_generator (https://pub.dev/packages/icon_font_generator).
+
+import 'package:flutter/widgets.dart';
+
+/// Identifiers for the icons.
+///
+/// Use with the [Icon] class to show specific icons.
+///
+/// Icons are identified by their name as listed below.
+///
+/// To use this class, make sure you declare the font in your
+/// project's `pubspec.yaml` file in the `fonts` section. This ensures that
+/// the "AppIcons" font is included in your application. This font is used to
+/// display the icons. For example:
+/// 
+/// ```yaml
+/// flutter:
+///   fonts:
+///     - family: AppIcons
+///       fonts:
+///         - asset: fonts/app_icons.ttf
+/// ```
+class AppIcons {
+  const AppIcons._();
+
+  static const iconFontFamily = 'AppIcons';
+
+  /// Font icon named "__settings__"
+  ///
+  /// <img width='32px' src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Im0zNzAtODAtMTYtMTI4cS0xMy01LTI0LjUtMTJUMzA3LTIzNWwtMTE5IDUwTDc4LTM3NWwxMDMtNzhxLTEtNy0xLTEzLjV2LTI3cTAtNi41IDEtMTMuNUw3OC01ODVsMTEwLTE5MCAxMTkgNTBxMTEtOCAyMy0xNXQyNC0xMmwxNi0xMjhoMjIwbDE2IDEyOHExMyA1IDI0LjUgMTJ0MjIuNSAxNWwxMTktNTAgMTEwIDE5MC0xMDMgNzhxMSA3IDEgMTMuNXYyN3EwIDYuNS0xIDEzLjVsMTAzIDc4LTExMCAxOTAtMTE5LTUwcS0xMSA4LTIzIDE1dC0yNCAxMmwtMTYgMTI4SDM3MFptMTEyLTI2MHE1OCAwIDk5LTQxdDQxLTk5cTAtNTgtNDEtOTl0LTk5LTQxcS01OSAwLTk5LjUgNDFUMzQyLTQ4MHEwIDU4IDQwLjUgOTl0OTkuNSA0MVptMC04MHEtMjUgMC00Mi41LTE3LjVUNDIyLTQ4MHEwLTI1IDE3LjUtNDIuNVQ0ODItNTQwcTI1IDAgNDIuNSAxNy41VDU0Mi00ODBxMCAyNS0xNy41IDQyLjVUNDgyLTQyMFptLTIyLTM4MGg0MGwxMiA5OHEyNSA3IDQ4IDIxdDQyIDMzbDkyLTM4IDIwIDM0LTc4IDYwcTYgMjIgOSA0NS41dDMgNDguNXEwIDI1LTMgNDguNXQtOSA0NS41bDc4IDYwLTIwIDM0LTkyLTM4cS0xOSAxOS00MiAzM3QtNDggMjFsLTEyIDk4aC00MGwtMTItOThxLTI1LTctNDgtMjF0LTQyLTMzbC05MiAzOC0yMC0zNCA3OC02MHEtNi0yMi05LTQ1LjV0LTMtNDguNXEwLTI1IDMtNDguNXQ5LTQ1LjVsLTc4LTYwIDIwLTM0IDkyIDM4cTE5LTE5IDQyLTMzdDQ4LTIxbDEyLTk4WiIvPjwvc3ZnPg==' alt='settings'>
+  static const IconData settings = IconData(0xe000, fontFamily: iconFontFamily);
+
+  /// Font icon named "__home__"
+  ///
+  /// <img width='32px' src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik0yNDAtMjAwaDEyMHYtMjQwaDI0MHYyNDBoMTIwdi0zNjBMNDgwLTc0MCAyNDAtNTYwdjM2MFptLTgwIDgwdi00ODBsMzIwLTI0MCAzMjAgMjQwdjQ4MEg1MjB2LTI0MGgtODB2MjQwSDE2MFptMzIwLTM1MFoiLz48L3N2Zz4=' alt='home'>
+  static const IconData home = IconData(0xe001, fontFamily: iconFontFamily);
+}

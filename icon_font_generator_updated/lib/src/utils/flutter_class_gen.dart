@@ -115,7 +115,7 @@ class FlutterClassGenerator {
       '/// Font icon named "__${iconName}__"',
       if (glyphMeta.preview != null) ...[
         '///',
-        "/// <image width='32px' src='data:image/svg+xml;base64,${glyphMeta.preview}'>",
+        "/// <img width='32px' src='data:image/svg+xml;base64,${glyphMeta.preview}' alt='$iconName'>",
       ],
       'static const IconData $varName = IconData(0x$hexCode, $posParamString);'
     ];
